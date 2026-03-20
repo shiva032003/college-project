@@ -6,7 +6,7 @@ function Navbar() {
       
       {/* Left - Logo */}
       <div className="navbar-logo">
-        <img src="/college-logo.png" alt="College Logo" />
+        <img src="/download1.png" alt="College Logo" />
       </div>
 
       {/* Right - Menu */}
