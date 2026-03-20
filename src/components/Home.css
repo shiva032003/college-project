@@ -1,0 +1,41 @@
+.hero {
+    height: 90vh;
+    background-color: #0a1f44;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 👈 LEFT ALIGN */
+    padding-left: 30px;          /* spacing from left */
+  }
+
+  .naac-badge {
+    background: linear-gradient(45deg, gold, orange); /* premium look */
+    color: black;
+    padding: 10px 22px;      /* more space */
+    border-radius: 25px;
+    font-size: 18px;         /* 🔥 increased text size */
+    font-weight: bold;
+    letter-spacing: 1px;     /* better readability */
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  /* Dark overlay */
+  .overlay {
+    background: rgba(10, 31, 68, 0.7);
+    padding: 40px;
+    text-align: left;  /* 👈 LEFT TEXT */
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .hero-title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+  }
